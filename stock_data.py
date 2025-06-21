@@ -5,7 +5,7 @@ from sector import SECTORS
 import db
 
 # Initialize with your Tushare token
-ts.set_token('2876ea85cb005fb5fa17c809a98174f2d5aae8b1f830110a5ead6211')
+ts.set_token('')
 pro = ts.pro_api()
 
 def update_stock_basic_data():
